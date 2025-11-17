@@ -17,7 +17,7 @@ turtleDrawTextFile = open(TEXTFILENAME, 'r')
 line = turtleDrawTextFile.readline()
 while line:
     print(line, end='')
-    parts = line.split(' ')
+    parts = line.split()
 
     if (len(parts) == 3):
         color = parts[0]
