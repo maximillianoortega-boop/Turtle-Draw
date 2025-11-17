@@ -1,11 +1,12 @@
 import turtle
 
-TEXTFILENAME = 'Turtle-Draw.txt'
+
+TEXTFILENAME = input("Turtle-Draw.txt")
 
 print ('TD-lite - pt 3')
 
-TDscreen = turtle.screen()
-TDscreen.setup(450, 450)
+TDapp = turtle.Screen()
+TDapp.setup(450, 450)
 
 TD = turtle.Turtle()
 TD.speed(0)
